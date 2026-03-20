@@ -576,7 +576,7 @@ section:nth-child(even) {
 
 <section class="project-detail" id="epjs" style="background:linear-gradient(180deg,#091228 0%,#0a1530 100%);padding-bottom:2.5rem;">
   <div class="project-detail-title">Extraction Parachute Jettison System<br><span style="font-weight:400;font-size:1.2rem;">Modelling and Simulation Under 75,000 lb Load</span></div>
-  <div class="project-detail-body" style="grid-template-columns:1fr 1fr;">
+  <div class="project-detail-body" style="grid-template-columns:1fr 0.625fr;">
     <div style="display:flex;flex-direction:column;gap:1rem;">
     <div class="project-detail-text">
       <p>Modeled the EPJS (Emergency Parachute Jettison System) end plate assembly to validate structural integrity under increased rated load requirements, integrating SOLIDWORKS assembly modeling with finite element analysis.</p>
@@ -587,7 +587,7 @@ section:nth-child(even) {
       </ul>
     </div>
       <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
-        <img src="epjs_fea.png" alt="Von Mises Stress — FEA" style="width:100%;max-height:240px;object-fit:contain;border-radius:4px;background:#1a2a4a;">
+        <img src="epjs_fea.png" alt="Von Mises Stress — FEA" style="width:100%;height:auto;object-fit:contain;border-radius:4px;background:#1a2a4a;">
         <figcaption style="font-size:0.78rem;color:#8fa3cc;text-align:center;">Von Mises Stress — 75,000 lb Load Case (37,500 lb/plate)</figcaption>
       </figure>
     </div>
@@ -613,13 +613,25 @@ section:nth-child(even) {
       <ul>
         <li>Designed a wing–fuselage disconnection mechanism enabling rapid battery swapping and modular field assembly</li>
         <li>Collaborated with aerodynamics sub-team to translate conceptual designs into manufacturable components</li>
+        <li>Collaborated with the aerodynamics team to design fairings using DFM principles, increasing the lift-to-drag ratio by 40%</li>
+        <li>Designed a manufacturable landing pad engineered for durability and repeatability across flight test campaigns</li>
         <li>Performed wing loading and structural stress calculations, validated through SOLIDWORKS CAD simulations</li>
         <li>Developed modular structural architectures applying design-for-manufacturing (DFM) principles</li>
       </ul>
     </div>
-    <div class="project-imgs">
-      <div style="background:#0d1535;border-radius:4px;padding:2rem;display:flex;align-items:center;justify-content:center;font-size:0.85rem;color:#8fa3cc;text-align:center;min-height:160px;">BANSHEE UAV<br>SOLIDWORKS Model</div>
-      <div style="background:#0d1535;border-radius:4px;padding:2rem;display:flex;align-items:center;justify-content:center;font-size:0.85rem;color:#8fa3cc;text-align:center;min-height:160px;">Structural Analysis<br>&amp; Load Calcs</div>
+    <div class="project-imgs" style="grid-template-columns:1fr 1fr 1fr;">
+      <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.4rem;">
+        <img src="banshee.png" alt="BANSHEE UAV" style="width:100%;height:auto;object-fit:contain;border-radius:4px;">
+        <figcaption style="font-size:0.78rem;color:#8fa3cc;text-align:center;">BANSHEE UAV</figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.4rem;">
+        <img src="flight test.jpg" alt="Flight Test" style="width:100%;height:auto;object-fit:contain;border-radius:4px;">
+        <figcaption style="font-size:0.78rem;color:#8fa3cc;text-align:center;">Flight Test</figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.4rem;">
+        <img src="landing pad.jpg" alt="Landing Pad" style="width:100%;height:auto;object-fit:contain;border-radius:4px;">
+        <figcaption style="font-size:0.78rem;color:#8fa3cc;text-align:center;">Landing Pad</figcaption>
+      </figure>
     </div>
   </div>
 </section>
