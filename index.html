@@ -564,7 +564,7 @@ section:nth-child(even) {
 
 <section class="project-detail" id="epjs" style="background:linear-gradient(180deg,#091228 0%,#0a1530 100%);">
   <div class="project-detail-title">Extraction Parachute Jettison System<br><span style="font-weight:400;font-size:1.2rem;">Modelling and Simulation Under 75,000 lb Load</span></div>
-  <div class="project-detail-body">
+  <div class="project-detail-body" style="grid-template-columns:1fr;">
     <div class="project-detail-text">
       <p>Modeled the EPJS (Emergency Parachute Jettison System) end plate assembly to validate structural integrity under increased rated load requirements, integrating SOLIDWORKS assembly modeling with finite element analysis.</p>
       <ul>
@@ -573,13 +573,17 @@ section:nth-child(even) {
         <li>Confirmed design margins against material yield limits for flight qualification load cases.</li>
       </ul>
     </div>
-    <div class="project-imgs" style="grid-template-columns:1fr;gap:1.5rem;">
+    <div class="project-imgs" style="grid-template-columns:1fr 1fr 1fr;gap:1.5rem;margin-top:1.5rem;">
       <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
-        <img src="epjs_model.png" alt="EPJS Actuator Assembly — SOLIDWORKS Render" style="width:100%;height:auto;max-height:480px;object-fit:contain;border-radius:4px;background:#0d1e3a;">
+        <img src="image.png" alt="Exploded View of EPJS-H" style="width:100%;height:auto;object-fit:contain;border-radius:4px;background:#f8f8f8;">
+        <figcaption style="font-size:0.78rem;color:#8fa3cc;text-align:center;">Exploded View of EPJS-H</figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
+        <img src="epjs_model.png" alt="EPJS Actuator Assembly — SOLIDWORKS Render" style="width:100%;height:auto;object-fit:contain;border-radius:4px;background:#0d1e3a;">
         <figcaption style="font-size:0.78rem;color:#8fa3cc;text-align:center;">EPJS Actuator Assembly — SOLIDWORKS Render</figcaption>
       </figure>
       <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
-        <img src="epjs_fea.png" alt="Von Mises Stress — FEA" style="width:100%;height:320px;object-fit:contain;border-radius:4px;background:#1a2a4a;">
+        <img src="epjs_fea.png" alt="Von Mises Stress — FEA" style="width:100%;height:auto;object-fit:contain;border-radius:4px;background:#1a2a4a;">
         <figcaption style="font-size:0.78rem;color:#8fa3cc;text-align:center;">Von Mises Stress — 75,000 lb Load Case (37,500 lb/plate)</figcaption>
       </figure>
     </div>
