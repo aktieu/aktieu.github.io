@@ -571,25 +571,25 @@ section:nth-child(even) {
 
 <section class="project-detail" id="epjs" style="background:linear-gradient(180deg,#091228 0%,#0a1530 100%);padding-bottom:2.5rem;">
   <div class="project-detail-title">Extraction Parachute Jettison System<br><span style="font-weight:400;font-size:1.2rem;">Modelling and Simulation Under 75,000 lb Load</span></div>
-  <div class="project-detail-body" style="grid-template-columns:1fr 1.4fr;align-items:start;">
-    <div class="project-detail-text">
-      <p>Modeled the EPJS (Emergency Parachute Jettison System) end plate assembly to validate structural integrity under increased rated load requirements, integrating SOLIDWORKS assembly modeling with finite element analysis.</p>
-      <ul>
-        <li>Modeled the full EPJS actuator assembly in SOLIDWORKS, consisting of end plate, cylindrical barrel, hex fasteners with O-ring face seals, and hydraulic hose barb fitting.</li>
-        <li>Ran Von Mises FEA simulation at 75,000 lb total load (37,500 lb per plate), identifying peak stress concentrations (~1.8 × 10⁵ psi) localized to mounting hole interfaces at the lower bearing edge.</li>
-        <li>Confirmed design margins against material yield limits for flight qualification load cases.</li>
-      </ul>
-    </div>
-    <div style="display:flex;gap:1.25rem;align-items:flex-start;">
-      <figure style="margin:0;flex:1;display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
+  <div class="project-detail-body" style="grid-template-columns:1fr 1fr;align-items:start;">
+    <div style="display:flex;flex-direction:column;gap:1.5rem;">
+      <div class="project-detail-text">
+        <p>Modeled the EPJS (Emergency Parachute Jettison System) end plate assembly to validate structural integrity under increased rated load requirements, integrating SOLIDWORKS assembly modeling with finite element analysis.</p>
+        <ul>
+          <li>Modeled the full EPJS actuator assembly in SOLIDWORKS, consisting of end plate, cylindrical barrel, hex fasteners with O-ring face seals, and hydraulic hose barb fitting.</li>
+          <li>Ran Von Mises FEA simulation at 75,000 lb total load (37,500 lb per plate), identifying peak stress concentrations (~1.8 × 10⁵ psi) localized to mounting hole interfaces at the lower bearing edge.</li>
+          <li>Confirmed design margins against material yield limits for flight qualification load cases.</li>
+        </ul>
+      </div>
+      <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
         <img src="epjs_fea.png" alt="Von Mises Stress — FEA" style="width:100%;height:auto;object-fit:contain;border-radius:4px;">
         <figcaption style="font-size:0.92rem;color:#8fa3cc;text-align:center;">Von Mises Stress — 75,000 lb Load Case (37,500 lb/plate)</figcaption>
       </figure>
-      <figure style="margin:0;flex:1.4;display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
-        <img src="epjs_model.png" alt="EPJS Actuator Assembly — SOLIDWORKS Render" style="width:100%;height:auto;object-fit:contain;border-radius:4px;">
-        <figcaption style="font-size:0.92rem;color:#8fa3cc;text-align:center;">EPJS Actuator Assembly — SOLIDWORKS Render</figcaption>
-      </figure>
     </div>
+    <figure style="margin:0;display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
+      <img src="epjs_model.png" alt="EPJS Actuator Assembly — SOLIDWORKS Render" style="width:100%;height:auto;object-fit:contain;border-radius:4px;">
+      <figcaption style="font-size:0.92rem;color:#8fa3cc;text-align:center;">EPJS Actuator Assembly — SOLIDWORKS Render</figcaption>
+    </figure>
   </div>
 </section>
 
